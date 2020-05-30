@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Growcery</string>
+    <string name="start">Get Started</string>
+    <string name="instructions">How It Works</string>
+    <string name="seller">I am a seller!</string>
+    <string name="buyer">I am a buyer!</string>
+    <string name="select">- Please select your area -</string>
+    <?xml version="1.0" encoding="utf-8"?>
+
+        <string-array name="area_list">
+            <item>San Franciscoy</item>
+            <item>Baltimore</item>
+        </string-array>
+
+</resources>
