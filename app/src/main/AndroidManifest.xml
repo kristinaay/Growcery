@@ -19,13 +19,138 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-        <activity android:name=".DisplaySecondPage">
+        <activity android:name=".Confirmation"
+            android:parentActivityName=".CreateAccount">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CreateAccount" />
             <intent-filter>
                 <action android:name="android.intent.action.SECOND" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+
             </intent-filter>
         </activity>
+        <activity android:name=".DisplaySecondPage"
+            android:parentActivityName=".Confirmation">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Confirmation" />
+            <intent-filter>
+                <action android:name="android.intent.action.SECOND" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".SupplierPage"
+            android:parentActivityName=".DisplaySecondPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplaySecondPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.SUPPLIER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".BuyerPage"
+            android:parentActivityName=".DisplaySecondPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplaySecondPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.BUYER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".SellerPage"
+            android:parentActivityName=".DisplaySecondPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".DisplaySecondPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.SELLER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".InfoPage"
+            android:parentActivityName=".BuyerPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".BuyerPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.INFOPAGE" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".ShopPage"
+            android:parentActivityName=".SellerPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SellerPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.SHOPINFO" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".CreateAccount"
+            android:parentActivityName=".MainActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.ACCOUNT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SentPage"
+            android:parentActivityName=".SupplierPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".SupplierPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.SENT" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeginnerPage"
+            android:parentActivityName=".ShopPage">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ShopPage" />
+            <intent-filter>
+                <action android:name="android.intent.action.BEGINNER" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />

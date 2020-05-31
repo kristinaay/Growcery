@@ -15,9 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     /** Called when the user taps the Get Started button */
-    public void goToSecondPage(View view) {
-        Intent myIntent = new Intent(this, DisplaySecondPage.class);
+    public void goToAccountPage(View view) {
+        Intent myIntent = new Intent(this, CreateAccount.class);
         startActivity(myIntent);
 
     }
+
 }

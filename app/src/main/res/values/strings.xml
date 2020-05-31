@@ -2,14 +2,101 @@
     <string name="app_name">Growcery</string>
     <string name="start">Get Started</string>
     <string name="instructions">How It Works</string>
+    <string name="instructionstwo">Are you interested in selling your homegrown vegetables, fruits, jams,
+        baked goods, etc.? Are you interested in buying locally grown and made food from your neighbors
+        and the community around you? Do you want to avoid crowded grocery store aisles
+        and long lines? Growcery is for you! \n\nGrowcery is a new and innovative app that
+        allows YOU to make some extra money and access fresh and homegrown food while supporting the community
+        you live in!\nFor sellers: Simply create a shop and upload the products you offer! Customers can then browse
+        items and contact you if they are interested.\nFor buyers: Simply browse through our easy
+        to use interface and click on any products you may be interested in!
+        Contact the seller for more information and to purchase.
+    </string>
     <string name="seller">I am a seller!</string>
+    <string name="yourproducts">Your products</string>
+    <string name="noproducts">No products to show</string>
+    <string name="reviews">Reviews</string>
+    <string name="reviewstwo">No reviews yet!</string>
+    <string name="shopnametwo">Marissa\'s Pantry</string>
+    <string name="distance">.9 miles away</string>
+    <string name="createaccount">Create Account</string>
+    <string name="distanceexample">Distance from you: 0.0 miles</string>
+    <string name="bioexmaple">About this shop: Hi! My name is Marissa and I sell a variety homegrown herbs, fruits,
+    and baked goods. Please feel free to contact me on here or at my email:
+    marissaspantry@gmail.com! I offer delivery for customers within 5 miles of me and pick
+    up for all customers. </string>
+
     <string name="buyer">I am a buyer!</string>
-    <string name="select">- Please select your area -</string>
-    <?xml version="1.0" encoding="utf-8"?>
+    <string name="select"></string>
 
         <string-array name="area_list">
-            <item>San Franciscoy</item>
+            <item>- Please select your area -</item>
+            <item>San Francisco</item>
             <item>Baltimore</item>
         </string-array>
+    <string name="products">Products</string>
+    <string name="moreinfo">More Info</string>
+    <string-array name="options_list">
+        <item>- Sort By -</item>
+        <item>Distance: closest to furthest</item>
+        <item>Price: low to high</item>
+        <item>Alphabetical</item>
+        <item>Date: posted most recently</item>
+    </string-array>
+    <string name="nextpage">Next Page</string>
+    <string name="createshop">Create Your Shop!</string>
+    <string name="shopname">Enter Shop Name:</string>
+    <string name="bio">Enter a short bio:</string>
+    <string name="itemname">Item name: Basil</string>
+    <string name="itemprice">Item price: $1.00 per ounce</string>
+    <string name="aboutitem">About this item: fertilizer used, fresh grown, etc.</string>
+    <string name="deliveryorpickup">Delivery and Pick up available now!</string>
+    <string name="itemdetails">Item Details</string>
+    <string name="createstore">Create my Store!</string>
+
+    <string-array name="payment_list">
+        <item>- Accepted Payment -</item>
+        <item>Cash only</item>
+        <item>Paypal only</item>
+        <item>Venmo only</item>
+        <item>CashApp only</item>
+        <item>Multiple/Other: Info in Bio</item>
+    </string-array>
+
+    <string-array name="delivery_list">
+        <item>- Please select an option -</item>
+        <item>Delivery only</item>
+        <item>Pickup only</item>
+        <item>Delivery and Pickup available</item>
+    </string-array>
+    <string name="contactseller">Contact Seller</string>
+    <string name="username">Create a username: </string>
+    <string name="email">Enter your email: </string>
+    <string name="password">Enter your password: </string>
+    <string name="passwordtwo">Confirm your password: </string>
+    <string name="createacc">Create an Account</string>
+    <string name="confirmed">Your account has been created! \nPlease check your email for confirmation.</string>
+    <string name="ok">Okay</string>
+    <string name="supplier">I am a supplier!</string>
+    <string name="supplierssearch">We are looking for suppliers!</string>
+    <string name="supplierinfo">Are you a supplier? If you would like to partner with us or donate,
+    please send us a message below and we will get back to you as soon as we can. We are always
+    looking for more suppliers.</string>
+    <string name="message">Enter your message here:</string>
+    <string name="send">Message sent!</string>
+    <string name="sendmsg">Send</string>
+    <string name="confirmsent">Your message has been sent. \nWe will respond as soon as we are able!</string>
+    <string name="back">Go Back</string>
+    <string name="options">Options</string>
+    <string name="beginner">Are you a beginner?</string>
+    <string name="starthelp">Need help getting started?</string>
+    <string name="directions">Just fill out the form below and if you are approved, a starter kit will be sent your way!</string>
+    <string name="address">Enter Your Address: </string>
+    <string name="streetname">Address line 1: </string>
+    <string name="streetnametwo">Address line 2: </string>
+    <string name="state">State: </string>
+    <string name="zip">Zip Code:</string>
+    <string name="exp">Do you have experience growing?:</string>
+    <string name="submit">Submit</string>
 
 </resources>

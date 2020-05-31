@@ -1,6 +1,8 @@
 package com.example.growcery;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -19,6 +21,20 @@ public class DisplaySecondPage extends AppCompatActivity {
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         // Apply the adapter to the spinner
         spinner.setAdapter(adapter);
+    }
+
+    public void goToSellerPage(View view) {
+        Intent myIntentTwo = new Intent(this, SellerPage.class);
+        startActivity(myIntentTwo);
+    }
+    public void goToBuyerPage(View view) {
+        Intent myIntent = new Intent(this, BuyerPage.class);
+        startActivity(myIntent);
+    }
+
+    public void goToSupplierPage(View view) {
+        Intent myIntentThree = new Intent(this, SupplierPage.class);
+        startActivity(myIntentThree);
     }
 
 }
