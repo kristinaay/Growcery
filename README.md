@@ -30,3 +30,5 @@ source of food for communities, especially ones with food deserts.
 
 ***This app is not fully functional yet, but provides a basic framework
 of what the finished product should look like and what it would offer***
+
+FOR MORE INFO SEE OUR PROJECT PAGE: https://covid19.spaceappschallenge.org/challenges/covid-challenges/food-thought/teams/growcery/project
